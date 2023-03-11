@@ -9,3 +9,7 @@ navBtn.onclick = () => {
         navBtnImg.src = "./img/icons/nav-open.svg";
     }
 }
+
+AOS.init({//запуск АОС анимации
+    once: true //эффект только при первой прокрутке
+});
